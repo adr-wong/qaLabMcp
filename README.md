@@ -71,11 +71,6 @@ pip install -r requirements.txt  # o instalar paquetes individualmente
 
 ## Uso
 
-```bash
-# Ejecutar servidor
-python server.py
-```
+El servidor MCP se ejecuta automáticamente a través de opencode al estar configurado en `opencode.json`. No es necesario iniciar el servidor manualmente.
 
-## Configuración en opencode
-
-El servidor está configurado en `opencode.json` como MCP local habilitado.
+Las herramientas están disponibles directamente en la sesión de opencode sin necesidad de una terminal adicional.

@@ -74,3 +74,11 @@ pip install -r requirements.txt  # o instalar paquetes individualmente
 El servidor MCP se ejecuta automáticamente a través de opencode al estar configurado en `opencode.json`. No es necesario iniciar el servidor manualmente.
 
 Las herramientas están disponibles directamente en la sesión de opencode sin necesidad de una terminal adicional.
+
+### Compatibilidad con Windows
+
+En `opencode.json`, la ruta del intérprete de Python es específica para Linux/macOS. En Windows, actualizar la ruta del comando:
+
+```json
+"command": ["C:\\ruta\\al\\.venv\\Scripts\\python.exe", "C:\\ruta\\al\\server.py"]
+```
